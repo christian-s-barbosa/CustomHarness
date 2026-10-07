@@ -11,6 +11,8 @@
 !/doc/
 !/opencode.json
 !/.gitignore
+!/README.md
+!/LICENSE
 
 # 3) Dependências (dentro do que ficou liberado)
 node_modules/
