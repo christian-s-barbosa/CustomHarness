@@ -1,4 +1,4 @@
-# CustonHarness
+# CustomHarness
 
 > Harness customizado sobre o [opencode](https://opencode.ai) — uma camada que
 > organiza **vários projetos** (cada um com um vault Obsidian) e os consolida num
