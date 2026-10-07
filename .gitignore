@@ -1,11 +1,19 @@
-# Subprojetos — cada um tem o seu próprio repositório
-/FeedHub/
-/personalrag/
+# ─────────────────────────────────────────────────────────────────────────
+# Orquestrador — ignora TUDO por padrão; liberamos só o que é nosso.
+# Assim qualquer projeto novo (pasta nova) entra no ignore automaticamente.
+# ─────────────────────────────────────────────────────────────────────────
 
-# Dependências e temporários
+# 1) Ignora tudo na raiz (`/*` = só o nível de cima)
+/*
+
+# 2) Libera o que pertence ao orquestrador
+!/.opencode/
+!/doc/
+!/opencode.json
+!/.gitignore
+
+# 3) Dependências (dentro do que ficou liberado)
 node_modules/
-*.log
-.DS_Store
 
-# Obsidian: estado de UI da máquina (não versionar)
+# 4) Obsidian: estado de UI da máquina (não versionar)
 **/.obsidian/workspace.json
