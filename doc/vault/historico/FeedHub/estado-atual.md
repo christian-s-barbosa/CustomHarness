@@ -1,13 +1,15 @@
 ---
 tipo: estado-atual
 escopo: aluno
+projeto: FeedHub
 atualizado: 2026-10-06
 ---
 
-# Estado atual
+# Estado atual — FeedHub
 
 > GERADO por `recalcular-estado.py` a partir das observações/avaliações.
-> Seções derivadas são recalculadas — não edite. Edite só Metas.
+> Seções derivadas (Dreyfus, matriz, confiança, erros, revisão, lacunas) são
+> recalculadas — **não edite**. Edite apenas **Metas** (manual).
 
 ## Estágio global (Dreyfus)
 - —
@@ -32,7 +34,5 @@ atualizado: 2026-10-06
 - ...
 
 ## Metas
-| Meta | Horizonte (curto/longo) | Progresso | Status |
-|------|-------------------------|-----------|--------|
-
-
+| Meta | Horizonte | Progresso | Status |
+|------|-----------|-----------|--------|
