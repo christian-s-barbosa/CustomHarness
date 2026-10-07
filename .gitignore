@@ -14,8 +14,11 @@
 !/README.md
 !/LICENSE
 
-# 3) Dependências (dentro do que ficou liberado)
+# 3) Lixo, dependências e segredos (dentro do que ficou liberado)
 node_modules/
+__pycache__/
+*.pyc
+.env
 
 # 4) Obsidian: estado de UI da máquina (não versionar)
 **/.obsidian/workspace.json
